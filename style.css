@@ -1,6 +1,4 @@
-/* body{
-    color:blanchedalmond; */
-/* } */
+
 .li-active{
     color: grey;
     text-decoration: line-through;
@@ -18,9 +16,9 @@
 }
 
 .wraper{
-    width: 250px;
+    width: 260px;
     height: 450px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 10px;
     box-shadow: 5px 5px 15px 5px rgb(82, 169, 82);
     border-radius: 5px;
@@ -37,8 +35,15 @@
 h1{
     margin: 0 35px 20px ;
 }
-/* .count{
-    box-shadow: 5px 5px 15px 5px red;
-    width: 100%;
-} */
+
+#btn:hover {
+    background-color: green;
+    transition: background-color .8s linear;
+}
+
+.btn2 {
+    border: 0;
+    background-color: red;
+    /* transition: background-color .8s linear; */
+}
 
