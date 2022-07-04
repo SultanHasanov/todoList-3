@@ -15,6 +15,12 @@
     /* border-radius: 5px; */
 }
 
+.li:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
 .wraper{
     width: 260px;
     height: 450px;
